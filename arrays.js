@@ -39,8 +39,8 @@ function removeElementFromBeginningOfArray(array) {
 }
 
 function removeElementFromEndOfArray(array) {
-  array = array.pop()
-  return array
+  array_more = array.pop()
+  return array_more
 }
 
 
