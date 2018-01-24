@@ -39,7 +39,7 @@ function removeElementFromBeginningOfArray(array) {
 }
 
 function removeElementFromEndOfArray(array) {
-  array = array.pop()
+  array.pop()
   return array
 }
 
