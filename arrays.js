@@ -20,8 +20,8 @@ function addElementToEndOfArray(array, element) {
 }
 
 function destructivelyAddElementToEndOfArray(array, element) {
-  var more_array = [...array, element]
-  return more_array
+  addElementToEndOfArray(array, element)
+  return array
 }
 
 function accessElementInArray(array, index) {
